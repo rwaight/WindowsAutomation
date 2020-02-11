@@ -7,4 +7,8 @@
 5. Open `Global Configuration Settings`, then select `Enabled`
 6. Review the [_Windows Time Service_ docs](https://docs.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings) and update settings, then click `OK`
 7. Validate and update any Windows Firewall settings, if needed
-8. In an administrative PowerShell console, issue `Start-Service w32time`
+- To add a new rule, issue the following command in an administrative PowerShell console:
+- `New-NetFirewallRule -DisplayName "NTP Server UDP 123" -Direction Inbound -LocalPort 123 -Protocol UDP -Action Allow -RemoteAddress LocalSubnet`
+
+8. In an administrative PowerShell console, issue:
+- `Start-Service w32time`
