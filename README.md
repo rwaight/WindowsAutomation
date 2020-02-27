@@ -1,2 +1,2 @@
 # Windows Automation
-Tools for automating Windows systems and Active Directory
+Tools for automating Windows systems, Active Directory, and Office 365
