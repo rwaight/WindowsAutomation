@@ -8,6 +8,8 @@ Tools for automating Windows systems, Active Directory, and Office 365
 
 `Create-NewService.ps1` - Creates a new service based on user input
 
+`Temp-UpdateClientDNS.ps1` - Update Client DNS when troubleshoot DNS server issues
+
 ### Active Directory
 `Pull-ADUsersGroups.ps1` - Output Active Directory users' group information to a csv
 
